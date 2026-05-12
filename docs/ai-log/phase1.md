@@ -1,13 +1,13 @@
 # Faz 1 AI Log
 
 ## AI’a ne sordum?
-Factory Method nasıl uygulanır?
+Factory Method tasarım örüntüsünü sepet projesinde nasıl uygulayabileceğimi sordum.
 
-## AI ne önerdi?
-İndirimleri ayrı sınıflara ayırmamı önerdi.
+## AI ne yanıtladı?
+İndirim sistemini ayrı sınıflara ayırmamı ve nesne oluşturmayı Factory üzerinden yapmamı önerdi.
 
-## Ben ne yaptım?
-Kendi projemde uyguladım ve sepet sınıfını refactor ettim.
+## Ben ne uyguladım?
+Sepet sınıfındaki if-else indirim yapısını kaldırdım ve Factory Method kullanarak indirimleri ayrı sınıflara böldüm.
 
-## Fark:
-AI teorik anlattı, ben projeye uyarladım.
+## Neden aynı veya farklı?
+AI daha genel bir açıklama yaptı, ben bunu kendi projeme uyarlayarak kod üzerinde uyguladım.
