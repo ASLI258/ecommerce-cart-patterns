@@ -12,15 +12,9 @@ public class Sepet{
             toplam += urun.fiyat;
         }
         
-        if(indirimTuru.equals("OGRENCI")){
-            toplam = toplam * 0.90;
-        }
-        else if(indirimTuru.equals("VIP")){
-            toplam = toplam * 0.80;
-        }
-        else if(indirimTuru.equals("YILBASI")){
-            toplam = toplam * 0.85;
-        }
+    //Factory method uyguladım.
+     Indirim indirim = IndirimFactory.olustur(indirimTuru);
+        toplam = indirim.uygula(toplam);
 
         if (odemeTuru.equals("KART")){
             System.out.println("Kart ile ödeme yapıldı.");
